@@ -1,0 +1,52 @@
+@font-face {
+    font-family: hidaya;
+    src: url("../fonts/hidayatullah.ttf");
+}
+
+#promotionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    border-image-slice:
+        85 85 85 85;
+    border-image-width:
+        42px 42px 42px 42px;
+    border-image-outset:
+        0px 0px 0px 0px;
+    border-image-repeat:
+        round round;
+    border-image-source: url("../images/border.png");
+    width: 300px;
+    padding: 50px;
+
+}
+
+h1 {
+    font-family: hidaya;
+}
+
+button {
+    font-family: hidaya;
+}
+#avatarContainer {
+    width: 100px;
+}
+
+#StudentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    border-image-slice:
+        85 85 85 85;
+    border-image-width:
+        42px 42px 42px 42px;
+    border-image-outset:
+        0px 0px 0px 0px;
+    border-image-repeat:
+        round round;
+    border-image-source: url("../images/border.png");
+    width: 300px;
+    padding: 50px;
+}

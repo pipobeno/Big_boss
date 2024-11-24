@@ -1,0 +1,102 @@
+@font-face {
+    font-family: hidaya;
+    src: url("../fonts/hidayatullah.ttf");
+}
+
+body {
+    overflow: hidden;
+
+}
+
+.iran {
+    position: absolute;
+    top: -45%;
+    left: 25%;
+    width: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-family: hidaya;
+    color: #5e0a0a;
+    border-image-slice:
+        15 15 15 15 fill;
+    border-image-width:
+        10px 10px 10px 10px;
+    border-image-outset:
+        0px 0px 0px 0px;
+    border-image-repeat:
+        round round;
+    border-image-source: url("../images/papier.png");
+    width: fit-content;
+    padding: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: hidaya;
+    color: #a78800;
+    margin: auto;
+}
+
+.promo-item {
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-image-slice:
+        85 85 85 85;
+    border-image-width:
+        42px 42px 42px 42px;
+    border-image-outset:
+        0px 0px 0px 0px;
+    border-image-repeat:
+        round round;
+    border-image-source: url("../images/border.png");
+    width: 300px;
+    padding: 50px;
+    background-color: antiquewhite;
+    margin-inline: 100px;
+}
+
+
+#modifContainer {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+button {
+    font-family: hidaya;
+    border-image-slice:
+        42 42 42 42;
+    border-image-width:
+        42px 42px 42px 42px;
+    border-image-outset:
+        0px 0px 0px 0px;
+    border-image-repeat:
+        round round;
+    border-image-source:
+        url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+    border-style:
+        solid;
+    cursor: pointer;
+    background: none;
+    padding: 10px;
+}
+
+#newPromoContainer {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}

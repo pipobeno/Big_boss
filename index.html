@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Afficher promo</title>
+</head>
+
+<body>
+    <header>
+        <h1>School Promotions</h1>
+    </header>
+    <main>
+        <div>
+            <img src="assets/images/iran.png" alt="iran" class="iran">
+        </div>
+        <h2>Liste des différentes Promotions</h2>
+        <div class="LesPromos">
+            <div id="newPromoContainer">
+        </div>
+            </section>
+            <form id="modifContainer" class="hidden">
+                <label for="titleContainer">Nom de la promotion :</label>
+                <input type="text" id="titleContainer">
+                <label for="FirstDateContainer">Date de début de la promotion :</label>
+                <input type="date" id="FirstDateContainer">
+                <label for="LastDateContainer">Date de fin de la promotion :</label>
+                <input type="date" id="LastDateContainer">
+                <input type="hidden" id="idPromo">
+                <button type="submit" id="submitButton">Enregistrer</button>
+            </form>
+    </main>
+    <footer></footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

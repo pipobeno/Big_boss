@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/details.css">
+    <title>Détails d'une promotion</title>
+</head>
+<body>
+    <main>
+        <h1>Ceci est un titre</h1>
+        <form id="modifContainer" class="hidden">
+            <label for="titleContainer">Nom de la promotion :</label>
+            <input type="text" id="titleContainer">
+            <label for="FirstDateContainer">Date de début de la promotion :</label>
+            <input type="text" id="FirstDateContainer">
+            <label for="LastDateContainer">Date de fin de la promotion :</label>
+            <input type="text" id="LastDateContainer">
+            <input type="hidden" id="idPromo">
+        </form>
+        <form id="StudentContainer" >
+            <p>Ajouter un élève</p>
+            <img src="assets/images/nobody.jpg" style="width: 10%" alt="nobody" id="avatarContainer">
+            <label for="firstNameContainer">Prénom de l'élève :</label>
+            <input type="text" id="firstNameContainer">
+            <label for="lastNameContainer">Nom de famille de l'élève :</label>
+            <input type="text" id="lastNameContainer">
+            <label for="ageContainer">Age de l'élève :</label>
+            <input type="number" id="ageContainer">
+            <div>
+                <button type="submit" id="submitButtonTwo">Ajouter</button>
+                <button type="reset" id="resetButton">Effacer</button>
+                <button type="submit" id="submitModify" class="hidden">Enregistrer les modifications</button>
+            </div>
+        </form>
+        <div class="LesStudents">
+            <div id="newStudentContainer">
+        </div>
+    </main>
+    <script src="assets/js/details.js"></script>
+</body>
+</html>
